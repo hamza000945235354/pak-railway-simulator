@@ -1,0 +1,9 @@
+:root{--bg:#F6F8F5;--card:#FFFFFF;--ink:#13261F;--muted:#4E6359;--line:#D6E0DA;--accent:#1D6B44;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0E1A16;--card:#15241F;--ink:#E8EFEA;--muted:#9FB3AA;--line:#2A4038;--accent:#6FD39B;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:24px}header img{width:56px;height:56px;border-radius:14px}
+h1{font-size:28px;line-height:1.2;margin:0}h2{font-size:19px;margin:28px 0 8px}p,li{color:var(--ink)}.muted{color:var(--muted);font-size:14px}
+a{color:var(--accent)}ul{padding-left:22px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:18px 0}
+.ur{direction:rtl;font-family:"Noto Nastaliq Urdu","Jameel Noori Nastaleeq",serif;line-height:2.2;font-size:18px}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:28px;font-size:15px}
